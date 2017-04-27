@@ -33,4 +33,6 @@ else if = elsif
 
 unless = is not true
 
+.gsub! = global substitution
+.gsub!(/s/, "th") = replace string "s" with "th"
 
