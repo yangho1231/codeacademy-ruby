@@ -95,6 +95,8 @@ Easy way to loop certain numbers
 Ex) 10.times { print "Chunky bacon!" }
 prints "Chunky bacon" 10 times
 
+#.split
+Takes string and turns it into array.
 #Some more loop examples
 
 puts "Text to search through: "
@@ -111,3 +113,49 @@ words.each do |word|
     print "REDACTED "
   end
 end
+
+#array
+demo_array = [100, 200, 300, 400, 500]
+To print 3rd element in the array
+print  demo_array[2]
+
+#hashes
+hashes is like object in javascript
+hash literal notation
+my_hash = { "name" => "Eric",
+  "age" => 26,
+  "hungry?" => true
+}
+
+puts my_hash["name"]
+puts my_hash["age"]
+puts my_hash["hungry?"]
+
+Create empty hash
+var x = Hash.new
+my_hash = Hash.new in javascript obj.my_hash = "something"
+
+Ex)
+my_hash = Hash.new
+put key in to new hash
+my_hash["Santa"] = "big boy"
+
+Or
+
+my_hash = {
+    "sant": "good"
+}
+
+#Looping through Hash
+
+family.each { |x, y| puts "#{x}: #{y}" }
+The first place holder = key and second holder = value
+Similar to for(var key in x) as Javascript
+
+family = { "Homer" => "dad",
+  "Marge" => "mom",
+  "Lisa" => "sister",
+  "Maggie" => "sister",
+  "Abe" => "grandpa",
+  "Santa's Little Helper" => "dog"
+}
