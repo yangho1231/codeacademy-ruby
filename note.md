@@ -159,3 +159,7 @@ family = { "Homer" => "dad",
   "Abe" => "grandpa",
   "Santa's Little Helper" => "dog"
 }
+
+#Ruby Installation
+Got to http://rubyinstaller.org/downloads/ and pick the version.
+Follow instructions here https://corlewsolutions.com/articles/article-19-install-ruby-on-windows-7-32-bit-or-64-bit
